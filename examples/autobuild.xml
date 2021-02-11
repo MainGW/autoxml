@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="autoxml-base">
+    <subdirectories>
+        <directory>src</directory>
+        <directory>tests</directory>
+    </subdirectories>
+    <source_directory>
+        <directory>src</directory>
+        <var>SRCS</var>
+    </source_directory>
+    <include_directory>
+        <directory>include</directory>
+    </include_directory>
+    <set>
+        <var>AUTOXML_CXX_STANDARD</var>
+        <value>11</value>
+    </set>
+    <executable>
+        <target><var>AUTOXML_PROJECT_NAME</var></target>
+        <source><var>SRCS</var></source>
+    </executable>
+    <link>
+        <target><var>AUTOXML_PROJECT_NAME</var></target>
+        <type>library</type>
+        <name>gmp</name>
+        <path>default</path>
+    </link>
+    <output gen="Makefile" />
+    <-- Makefile/Ninja/BaseXML -->
+</project>
