@@ -1,0 +1,135 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "output/autoxml-test"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"tests/autoxml-test/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -ggdb -O0 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "TINYXML2_DEBUG"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/Users/wanaoi/home/source.d/C++/autoxml/tests/autoxml-test/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/wanaoi/home/source.d/C++/autoxml/tinyxml2"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "tinyxml2::@306ed2d68c6501e8728f"
+		}
+	],
+	"id" : "autoxml-test::@ccefc74e093d6f4ac7b1",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-ggdb -O0 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../lib/libtinyxml2d.8.0.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "autoxml-test",
+	"nameOnDisk" : "autoxml-test",
+	"paths" : 
+	{
+		"build" : "tests/autoxml-test",
+		"source" : "tests/autoxml-test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/autoxml-test/src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

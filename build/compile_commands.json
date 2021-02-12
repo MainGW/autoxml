@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/wanaoi/home/source.d/C++/autoxml/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTINYXML2_DEBUG -I../tinyxml2 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fPIE -o lib/CMakeFiles/xmltest.dir/xmltest.cpp.o -c /Users/wanaoi/home/source.d/C++/autoxml/tinyxml2/xmltest.cpp",
+  "file": "/Users/wanaoi/home/source.d/C++/autoxml/tinyxml2/xmltest.cpp"
+},
+{
+  "directory": "/Users/wanaoi/home/source.d/C++/autoxml/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTINYXML2_DEBUG -DTINYXML2_EXPORT -I../tinyxml2 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o lib/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.o -c /Users/wanaoi/home/source.d/C++/autoxml/tinyxml2/tinyxml2.cpp",
+  "file": "/Users/wanaoi/home/source.d/C++/autoxml/tinyxml2/tinyxml2.cpp"
+},
+{
+  "directory": "/Users/wanaoi/home/source.d/C++/autoxml/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DTINYXML2_DEBUG -I../tests/autoxml-test/include -I../tinyxml2  -ggdb -O0 -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -o tests/autoxml-test/CMakeFiles/autoxml-test.dir/src/main.cpp.o -c /Users/wanaoi/home/source.d/C++/autoxml/tests/autoxml-test/src/main.cpp",
+  "file": "/Users/wanaoi/home/source.d/C++/autoxml/tests/autoxml-test/src/main.cpp"
+}
+]
