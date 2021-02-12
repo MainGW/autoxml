@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoxml>
+    <project name="autoxml-base">
+        <subdirectories>
+            <directory>src</directory>
+            <directory>tests</directory>
+        </subdirectories>
+        <source_directory>
+            <directory>src</directory>
+            <var>SRCS</var>
+        </source_directory>
+        <include_directory>
+            <directory>include</directory>
+        </include_directory>
+        <executable>
+            <target><var>AUTOXML_PROJECT_NAME</var></target>
+            <source><var>SRCS</var></source>
+        </executable>
+    </project>
+</autoxml>
